@@ -1,22 +1,21 @@
-# UI/UX Designer  
+
+# UI/UX Design Case Studies & Artifacts
+
 Building accessible, user-centered digital products. Focus on user research, IA, prototyping &amp; WCAG standards.
 
 ----
 
+This repository contains design documentation, user research artifacts, interactive wireframes, and interface specs developed during the **CourseCareers UI/UX Design Program**. 
 
-I’m a **UI/UX Designer** focused on crafting intuitive, accessible, and high-impact digital experiences. My approach bridges the gap between user research, clean interface design, and real-world technical execution.
+> **Product Design Philosophy:**
+> Having a strong grasp of technical delivery and business strategy gives you a massive advantage in product design. Adding formal UI/UX training closes the loop, allowing you to bridge the gap between business viability, technical feasibility, and human-centered design.
 
-<br>
+---
 
-### 🎯 Core Competencies
-* **User Research & Testing:** Uncovering user needs, usability testing, and iterative design refinement.
-* **Information Architecture & Interaction Design:** Designing structured navigation, user flows, and interactive wireframes.
-* **UI Design & Systems:** Creating clean, responsive interface components focused on clarity and consistency.
-* **Accessibility & Inclusion:** Designing to WCAG standards to ensure products are usable by everyone.
-* **Developer Handoff:** Structuring design files and documentation for seamless software development alignment.
-
-<br>
-
-### 📚 Continuous Learning
-Currently expanding my end-to-end product design framework through the **CourseCareers UI/UX Design Program**, mastering the full product development lifecycle from research through developer handoff.
+### 🛠 Core Competencies & Workflows
+* **User Research & Testing:** Uncovering core user friction points, running usability tests, and synthesizing qualitative/quantitative feedback.
+* **Information Architecture:** Constructing user flows, sitemaps, and intuitive navigation patterns for complex workflows.
+* **UI Design & Systems:** Designing clean, responsive interface components focused on clarity, scalability, and visual hierarchy.
+* **Accessibility (a11y):** Designing to strict WCAG standards for color contrast, keyboard navigation, and screen reader compliance.
+* **Technical Alignment:** Structuring design artifacts and component specs for seamless developer handoff and engineering execution.
 
