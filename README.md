@@ -1,6 +1,8 @@
 # UI-UX-Design
 UI/UX Designer | Building accessible, user-centered digital products. Focus on user research, IA, prototyping &amp; WCAG standards.
 
+----
+
 
 I’m a **UI/UX Designer** focused on crafting intuitive, accessible, and high-impact digital experiences. My approach bridges the gap between user research, clean interface design, and real-world technical execution.
 
