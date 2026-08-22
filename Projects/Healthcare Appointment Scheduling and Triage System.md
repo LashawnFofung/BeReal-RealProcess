@@ -1,8 +1,7 @@
-Patient-Centric Multi-Modal Appointment Scheduling & Triage System
-
-Streamlining real-time availability, insurance validation, and WCAG accessibility.
 
 # 🏥 Patient-Centric Multi-Modal Appointment Scheduling & Triage System
+
+<i>Streamlining real-time availability, insurance validation, and WCAG accessibility.</i>
 
 An end-to-end UI/UX case study and product design system designed to simplify medical appointment booking, reduce patient drop-off, and decrease healthcare facility no-show rates through accessible, real-time interface design.
 
