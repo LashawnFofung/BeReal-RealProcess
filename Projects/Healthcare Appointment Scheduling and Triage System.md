@@ -26,6 +26,8 @@ An end-to-end UI/UX case study and product design system designed to simplify me
 
 
 # Screen 1: Smart Triage & Consultation Mode Selector
+
+```text
 +-------------------------------------------------------+
 |  [< Back]               Book Appointment              |
 +-------------------------------------------------------+
@@ -52,7 +54,6 @@ An end-to-end UI/UX case study and product design system designed to simplify me
 |                                                       |
 |  [ CANCEL ]                               [ NEXT > ]  |
 +-------------------------------------------------------+
-
 
 <br>
 
