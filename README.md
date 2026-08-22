@@ -7,6 +7,8 @@ Building accessible, user-centered digital products. Focus on user research, IA,
 
 This repository contains design documentation, user research artifacts, interactive wireframes, and interface specs developed during the **CourseCareers UI/UX Design Program**. 
 
+<br>
+
 > **Product Design Philosophy:**
 > Having a strong grasp of technical delivery and business strategy gives you a massive advantage in product design. Adding formal UI/UX training closes the loop, allowing you to bridge the gap between business viability, technical feasibility, and human-centered design.
 
