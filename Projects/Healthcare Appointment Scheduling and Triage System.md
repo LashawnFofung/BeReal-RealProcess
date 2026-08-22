@@ -23,3 +23,65 @@ An end-to-end UI/UX case study and product design system designed to simplify me
 3. **Wireframes & Interactive Prototypes:** Low-fidelity sketches to high-fidelity Figma components.
 4. **Design System & Component Library:** Typography, color palettes, accessibility specs, and layout grids.
 5. **Developer Handoff Specs:** Microservice API mapping, error-state guidelines, and technical handoff documentation.
+
+
+# Screen 1: Smart Triage & Consultation Mode Selector
++-------------------------------------------------------+
+|  [< Back]               Book Appointment              |
++-------------------------------------------------------+
+|                                                       |
+|  STEP 1: Select Consultation Type                     |
+|                                                       |
+|  +-------------------------------------------------+  |
+|  |  (o) 🏥 In-Person Visit                         |  |
+|  |      Best for physical exams & urgent care      |  |
+|  +-------------------------------------------------+  |
+|  |  ( ) 💻 Video Consultation                      |  |
+|  |      Fastest availability for follow-ups        |  |
+|  +-------------------------------------------------+  |
+|  |  ( ) 📞 Phone Consultation                      |  |
+|  |      Quick doctor check-in                      |  |
+|  +-------------------------------------------------+  |
+|                                                       |
+|  SYMPTOM CHECK & TRIAGE (Optional)                    |
+|  Describe what you are experiencing:                  |
+|  +-------------------------------------------------+  |
+|  |  [ e.g., Headaches for 2 days, mild fever... ]  |  |
+|  +-------------------------------------------------+  |
+|  [!] Triage Priority: ROUTINE CARE                    |
+|                                                       |
+|  [ CANCEL ]                               [ NEXT > ]  |
++-------------------------------------------------------+
+
+
+<br>
+
+# Screen 2: Real-Time Availability & Insurance Validation
+
++-------------------------------------------------------+
+|  [< Back]               Select Provider               |
++-------------------------------------------------------+
+|                                                       |
+|  STEP 2: Provider & Slot Selection                    |
+|                                                       |
+|  Dr. Sarah Jenkins, MD                                |
+|  Cardiology • 4.9 ★ (120 reviews)                     |
+|                                                       |
+|  INSURANCE STATUS                                     |
+|  +-------------------------------------------------+  |
+|  |  [✓] UnitedHealthcare Choice Plus               |  |
+|  |  Verified Real-Time • Est. Copay: $30.00         |  |
+|  +-------------------------------------------------+  |
+|                                                       |
+|  AVAILABLE SLOTS (Earliest Available)                 |
+|  +------------------+  +------------------+           |
+|  |  Thu, Oct 12     |  |  Fri, Oct 13     |           |
+|  |  [ 09:00 AM ]    |  |  [ 10:30 AM ]    |           |
+|  |  [ 02:15 PM ]    |  |  [ 01:00 PM ]    |           |
+|  +------------------+  +------------------+           |
+|                                                       |
+|  [ CANCEL ]                     [ CONFIRM BOOKING > ] |
++-------------------------------------------------------+
+
+
+
