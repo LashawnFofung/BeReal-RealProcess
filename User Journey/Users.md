@@ -1,4 +1,18 @@
-# Detailed Stage Breakdown
+# BeReal Teardown: Introverted First-Time User Journey Map
+A product teardown and user journey map for BeReal, analyzed through the lens of an introverted, first-time user.
+
+
+## Overview
+- **Objective:** Analyze BeReal's core mechanics, friction points, and retention barriers to evaluate their impact on Monthly Active Users (MAU).
+- **Target Persona:** "Denise" — An introverted, first-time user who prefers low-pressure interactions, values privacy, and experiences friction with forced real-time sharing.
+- **Key Deliverables:**
+  - 4-Part Product Teardown (Core Mechanic, What's Working, What's Broken, MAU Hypothesis)
+  - 5-Stage User Journey Matrix (Onboard ➔ Connect ➔ Prompt ➔ Capture ➔ Consume)
+
+
+----
+
+## Detailed Stage Breakdown
 
 
 | Stage Name | User Actions | Introvert Mindset & Feelings | Friction / Pain Points |
