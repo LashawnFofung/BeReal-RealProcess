@@ -1,6 +1,7 @@
 # BeReal Teardown: Introverted First-Time User Journey Map
 A product teardown and user journey map for BeReal, analyzed through the lens of an introverted, first-time user.
 
+<br>
 
 ## Overview
 - **Objective:** Analyze BeReal's core mechanics, friction points, and retention barriers to evaluate their impact on Monthly Active Users (MAU).
