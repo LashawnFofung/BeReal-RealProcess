@@ -1,3 +1,6 @@
+# Detailed Stage Breakdown
+
+
 | Stage Name | User Actions | Introvert Mindset & Feelings | Friction / Pain Points |
 | :--- | :--- | :--- | :--- |
 | **1. Onboard** | Download app, enter phone number, create username, allow notifications. | Curious but cautious. Wants to explore without committing to posting personal content immediately. | The mandatory phone number and notification requirement feels slightly high-friction. |
