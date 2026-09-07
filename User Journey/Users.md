@@ -10,6 +10,7 @@ A product teardown and user journey map for BeReal, analyzed through the lens of
   - 4-Part Product Teardown (Core Mechanic, What's Working, What's Broken, MAU Hypothesis)
   - 5-Stage User Journey Matrix (Onboard ➔ Connect ➔ Prompt ➔ Capture ➔ Consume)
 
+<br>
 
 ----
 
@@ -26,7 +27,7 @@ A product teardown and user journey map for BeReal, analyzed through the lens of
 
 
 
-
+<br>
 
 ## User Journey Map
 
