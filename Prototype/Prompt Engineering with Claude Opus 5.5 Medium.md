@@ -10,6 +10,7 @@ I started from a detailed slide deck I designed in Canva, covering the full user
 - **View:** [Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
 - **View:** [PDF version](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
 
+<br>
 
 ### The prototype
 
@@ -17,6 +18,7 @@ Using the deck as the spec, I used Claude.ai to build a clickable prototype of t
 
 - **Try it:** [Live Prototype with Claude.AI](https://claude.ai/artifact/QouixAtcmRQXoxXEiUsXgm)
 
+<br>
 
 ### Hosting the prototype with GitHub Pages
 
@@ -33,8 +35,9 @@ To make the prototype viewable in any browser, with no login or sharing settings
 - **The homepage returned a 404.** The redirect file was named `Index.html`. GitHub Pages is case-sensitive and only recognizes lowercase `index.html`, so renaming the file fixed it.
 - **The Save button was greyed out.** GitHub only enables Save when a setting changes. Switching the branch to **None**, saving, then switching back to **main** started a fresh deploy.
 
--**View:** [lashawnfofung.github.io/BeReal-RealProcess](https://lashawnfofung.github.io/BeReal-RealProcess/)
+- **View:** [lashawnfofung.github.io/BeReal-RealProcess](https://lashawnfofung.github.io/BeReal-RealProcess/)
 
+<br>
 
 ### The promo reel
 
