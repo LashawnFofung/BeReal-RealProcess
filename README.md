@@ -21,3 +21,29 @@ This repository contains design documentation, user research artifacts, interact
 * **Accessibility (a11y):** Designing to strict WCAG standards for color contrast, keyboard navigation, and screen reader compliance.
 * **Technical Alignment:** Structuring design artifacts and component specs for seamless developer handoff and engineering execution.
 
+<br>
+
+## Deliverables:
+
+### The prototype
+
+- **Try it:** [Live Prototype with Claude.AI](https://claude.ai/artifact/QouixAtcmRQXoxXEiUsXgm)
+
+- **Try it:** [Live Prototype with GitHub Pages](https://lashawnfofung.github.io/BeReal-RealProcess/)
+
+- **Watch:** [Promo Reel](https://youtube.com/shorts/exXoJ6NqmbI)
+
+<br>
+
+### The Pitch
+- **View** [The Pitch](https://youtu.be/Or5O1wUj_Ow)
+
+<br>
+
+### The Project (Case Study)
+- **View:** [Project Slide Deck ](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
+- **View:** [Project](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
+
+<br>
+
+### The Pitch
