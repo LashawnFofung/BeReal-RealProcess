@@ -37,6 +37,7 @@ This repository contains design documentation, user research artifacts, interact
 
 ### The Pitch
 - **View** [The Pitch](https://youtu.be/Or5O1wUj_Ow)
+- **View** [The Pitch Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf)
 
 <br>
 
