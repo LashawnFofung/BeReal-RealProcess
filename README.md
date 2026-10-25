@@ -31,20 +31,20 @@ This repository contains design documentation, user research artifacts, interact
 
 - **Try it:** [Live Prototype with GitHub Pages](https://lashawnfofung.github.io/BeReal-RealProcess/)
 
-- **Watch:** [Promo Reel](https://youtube.com/shorts/exXoJ6NqmbI)
+- **Watch:** [YouTube: Promo Reel](https://youtube.com/shorts/exXoJ6NqmbI)
 
 <br>
 
 ### The Pitch
-- **View** [The Pitch](https://youtu.be/Or5O1wUj_Ow)
-- **View** [The Pitch Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf)
+- **View** [YouTube: The Pitch](https://youtu.be/Or5O1wUj_Ow)
+- **View** [The Pitch Presentation PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf)
+- **View** [The Pitch Presentation Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pptx)
 
 <br>
 
 ### The Project (Case Study)
-- **View:** [Project Slide Deck ](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
-- **View:** [Project](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
+- **View:** [Project Presentation Slide Deck ](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
+- **View:** [Project Presentation PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
 
 <br>
 
-### The Pitch
