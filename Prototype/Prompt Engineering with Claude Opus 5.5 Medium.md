@@ -8,7 +8,7 @@
 I started from a detailed slide deck I designed in Canva, covering the full user flow, UI states, and UI/UX design for the feature.
 
 - **View:** [Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
-- **View:** [PDF version](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
+- **View:** [Protoype PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
 
 <br>
 
