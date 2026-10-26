@@ -43,7 +43,7 @@ This repository contains design documentation, user research artifacts, interact
 <br>
 
 ### The Project (Case Study)
-- **View:** [Case Study Slide Deck ]()
+- **View:** [Case Study Slide Deck ](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
 - **View:** [Case Study Presentation PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
 
 <br>
