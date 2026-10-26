@@ -36,7 +36,7 @@ This repository contains design documentation, user research artifacts, interact
 <br>
 
 ### The Pitch
-- **View** [YouTube: The Pitch](https://youtu.be/Or5O1wUj_Ow)
+- **Watch** [YouTube: The Pitch](https://youtu.be/Or5O1wUj_Ow)
 - **View** [The Pitch Presentation PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf)
 - **View** [The Pitch Presentation Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pptx)
 
@@ -45,6 +45,7 @@ This repository contains design documentation, user research artifacts, interact
 ### The Project (Case Study)
 - **View:** [Case Study Slide Deck ](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
 - **View:** [Case Study Presentation PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
+- **Watch** [YouTube: Case Study](https://youtu.be/zMyjvSP5ID4)
 
 <br>
 
