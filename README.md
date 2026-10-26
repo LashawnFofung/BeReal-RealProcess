@@ -25,7 +25,7 @@ This repository contains design documentation, user research artifacts, interact
 
 ## Deliverables:
 
-### The prototype
+### The Prototype
 
 - **Try it:** [Live Prototype with Claude.AI](https://claude.ai/artifact/QouixAtcmRQXoxXEiUsXgm)
 
