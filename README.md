@@ -25,7 +25,7 @@ This repository holds the design documentation, research artifacts, interactive 
 
 | Deliverable | Watch / try | Files |
 | --- | --- | --- |
-| **Case study** (16 min) | [YouTube](https://youtu.be/zMyjvSP5ID4) | [Slides (PPTX)](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf) |
+| **Case study** (16 min) | [YouTube](https://youtu.be/yxYclJn8ZGc) | [Slides (PPTX)](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf) |
 | **Pitch** (5 min) | [YouTube](https://youtu.be/Or5O1wUj_Ow) | [Slides (PPTX)](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf) |
 | **Interactive prototype** | [GitHub Pages](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Claude](https://claude.ai/artifact/QouixAtcmRQXoxXEiUsXgm) | [HTML file](Prototype/BeReal_Passport_Prototype.html) |
 | **Promo reel** (45 sec) | [YouTube Short](https://youtube.com/shorts/exXoJ6NqmbI) | |
