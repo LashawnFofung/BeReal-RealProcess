@@ -3,7 +3,7 @@
 # 📸 BeReal Passport & Community Boards
 ### A re-engagement feature concept for casual BeReal users
 
-**UI/UX Design + Product Management Case Study** · CourseCareers UI/UX Design Program · Aug 2026 – Oct 2026
+**UI/UX Design + Product Management Case Study** · UI/UX Design & Product Management · Aug 2026 – Oct 2026
 
 [![Prototype](https://img.shields.io/badge/Try_the_Prototype-Live-2EA44F?style=flat&logo=githubpages&logoColor=white)](https://lashawnfofung.github.io/BeReal-RealProcess/)
 [![Case Study](https://img.shields.io/badge/Case_Study-16_min-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/yxYclJn8ZGc)
