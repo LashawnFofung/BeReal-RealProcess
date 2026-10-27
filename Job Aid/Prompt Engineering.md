@@ -247,7 +247,7 @@ The job aid is only as good as its step list. To make the process repeatable, I 
 6. **Add one line to the prompt** so the AI uses the spreadsheet as its source:
 
 ```text
-Use the attached steps spreadsheet (Steps tab) as the TASKS AND STEPS list. Follow it row by row: one screen per row, in order. Use the Tap Target column for the hotspot, Action for "Do this", On This Screen for the description and Tip for the tip box. Don't add, skip or reword steps; if a row is unclear, list it under open questions.
+Use the attached steps spreadsheet (BeReal Steps tab) as the TASKS AND STEPS list. Follow it row by row: one screen per row, in order. Use the Tap Target column for the hotspot, Action for "Do this", On This Screen for the description and Tip for the tip box. Don't add, skip or reword steps; if a row is unclear, list it under open questions.
 ```
 
 **Why a spreadsheet**
@@ -256,7 +256,7 @@ Use the attached steps spreadsheet (Steps tab) as the TASKS AND STEPS list. Foll
 - **It's the single source of truth.** The prompt, the job aid and its printable text version all come from the same rows.
 - **It scales to any feature.** For a new enhancement, I clear the rows, walk through the new prototype and fill them in. The prompt stays the same.
 
-- **View:** [BeReal step list (filled)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport_Filled.xlsx) · [Blank template](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx)
+- **View:** [Step list spreadsheet](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx) — one file with three tabs: **How to Use**, **BeReal Steps** (filled in) and a blank **Template** for future features. For a new feature, fill in the Template tab and change "BeReal Steps tab" to "Template tab" in the prompt line.
 
 <br>
 
@@ -276,8 +276,7 @@ Use the attached steps spreadsheet (Steps tab) as the TASKS AND STEPS list. Foll
 | --- | --- |
 | [`Job Aid/BeReal_BeReal Passport and Community Boards_Interactive_Job_Aid.html`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) | Interactive click-through job aid (self-contained, about 2 MB) |
 | [`Job Aid/Prompt Engineering.md`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) | This page: purpose, process, reusable prompt and step list |
-| [`Job Aid/Job_Aid_Steps_BeReal_Passport_Filled.xlsx`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport_Filled.xlsx) | Step list spreadsheet, filled in with all BeReal steps (upload with the prompt) |
-| [`Job Aid/Job_Aid_Steps_BeReal_Passport.xlsx`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx) | Blank step list template for future features, with the BeReal steps as a worked example |
+| [`Job Aid/Job_Aid_Steps_BeReal_Passport.xlsx`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx) | Step list spreadsheet: BeReal Steps tab (filled in, upload with the prompt) and a blank Template tab for future features |
 | [`Prototype/BeReal_Passport_Prototype.html`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal_Passport_Prototype.html) | Clickable prototype the screens were captured from |
 
 ---
