@@ -1,4 +1,3 @@
-
 ## Prompt Engineering
 
 ### The prompt
@@ -7,8 +6,8 @@
 
 I started from a detailed slide deck I designed in Canva, covering the full user flow, UI states, and UI/UX design for the feature.
 
-- **View:** [Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Passport%20And%20Community%20Boards%20Prototype.pptx)
-- **View:** [Prototype PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Passport%20And%20Community%20Boards%20Prototype.pdf)
+- **View:** [Slide Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pptx)
+- **View:** [Prototype PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal%20Prototype%20-%20Real%20Passport%20And%20Community%20Boards.pdf)
 
 <br>
 
