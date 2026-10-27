@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BeReal Passport &amp; Community Boards Job Aid</title>
+<style>
+:root{
+  --ink:#0A0A0A; --paper:#F7F6F1; --card:#FFFFFF; --yellow:#FFDE59; --muted:#5B5B5B;
+  --line:#E4E2DA; --tip:#FFF6CC; --tipline:#E9C935; --ok:#1F9D55;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 -apple-system,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+
+header{background:var(--ink);color:#fff}
+header .wrap{padding-top:28px;padding-bottom:20px}
+h1{margin:0 0 6px;font-size:clamp(24px,4vw,36px);line-height:1.1;letter-spacing:-.8px}
+.sub{margin:0 0 18px;color:#CFCFCF}
+.tabs{display:flex;flex-wrap:wrap;gap:8px}
+.tab{border:1px solid #444;background:transparent;color:#E6E6E6;border-radius:999px;padding:7px 14px;font-size:14px;font-weight:600}
+.tab .n{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#2A2A2A;margin-right:7px;font-size:12px}
+.tab[aria-selected="true"]{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
+.tab[aria-selected="true"] .n{background:var(--ink);color:var(--yellow)}
+.tab.done .n{background:var(--ok);color:#fff}
+
+main.wrap{padding-top:28px;padding-bottom:28px}
+main{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:start;padding:28px 0}
+
+/* phone */
+.stage{position:relative;justify-self:center}
+.device{position:relative;height:min(76vh,760px);aspect-ratio:780/1640;border-radius:12% / 5.7%;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.28);background:#000;user-select:none}
+.device img{position:absolute;inset:0;width:100%;height:100%;display:block;transition:opacity .18s}
+.device img.fade{opacity:0}
+.hot{position:absolute;border:3px solid var(--yellow);border-radius:14px;background:rgba(255,222,89,.10);padding:0;animation:pulse 1.6s ease-out infinite}
+.hot:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.hot .tapl{position:absolute;left:50%;transform:translateX(-50%);background:var(--yellow);color:var(--ink);font-size:12px;font-weight:800;letter-spacing:.4px;padding:3px 9px;border-radius:999px;white-space:nowrap;box-shadow:0 4px 12px rgba(0,0,0,.35);pointer-events:none}
+.hot .tapl{left:auto;right:-10px;top:-13px;transform:none;font-size:11px;padding:2px 8px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,222,89,.75)}70%{box-shadow:0 0 0 14px rgba(255,222,89,0)}100%{box-shadow:0 0 0 0 rgba(255,222,89,0)}}
+.hot.nudge{animation:nudge .45s ease 2,pulse 1.6s ease-out .9s infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.hint{position:absolute;left:50%;bottom:-38px;transform:translateX(-50%);font-size:13px;color:var(--muted);white-space:nowrap;opacity:0;transition:opacity .2s}
+.hint.show{opacity:1}
+
+/* panel */
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;position:sticky;top:20px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.bar{height:6px;background:#EEE;border-radius:999px;overflow:hidden;margin:0 0 18px}
+.bar i{display:block;height:100%;background:var(--ink);border-radius:999px;transition:width .25s}
+.do{margin:0 0 10px;font-size:clamp(22px,2.6vw,28px);line-height:1.2;letter-spacing:-.4px}
+.label{font-size:12px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);margin:16px 0 2px}
+.screen{margin:0}
+.tip{margin-top:14px;background:var(--tip);border-left:4px solid var(--tipline);border-radius:8px;padding:10px 14px;font-size:15px}
+.tip b{margin-right:4px}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#E7F6EE;color:#14663A;font-weight:700;border-radius:999px;padding:4px 12px 4px 6px;font-size:14px;margin-bottom:10px}
+.badge i{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--ok);color:#fff;font-style:normal;font-size:13px}
+.spin{display:inline-block;width:16px;height:16px;border:2px solid #ccc;border-top-color:var(--ink);border-radius:50%;animation:sp .8s linear infinite;vertical-align:-3px;margin-right:8px}
+@keyframes sp{to{transform:rotate(360deg)}}
+.ctrls{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:#fff;border-radius:10px;padding:10px 16px;font-weight:600}
+.btn.primary{background:var(--ink);border-color:var(--ink);color:#fff}
+.btn.primary:hover,.btn.primary:focus-visible{background:var(--yellow);border-color:var(--yellow);color:var(--ink);outline:none}
+.btn:disabled{opacity:.4;cursor:default}
+.keys{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+/* text version */
+.text{margin:0 0 40px}
+.text details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+.text summary{font-weight:700;cursor:pointer}
+.text h3{margin:18px 0 6px}
+.text ol{margin:0;padding-left:22px}
+.text li{margin:6px 0}
+.text li span{color:var(--muted)}
+.text li em{display:block;font-style:normal;font-size:14px;color:#6B5A00}
+.text .done{margin:8px 0 0;font-size:15px}
+footer{color:var(--muted);font-size:14px;padding:0 0 40px;text-align:center}
+
+@media (max-width:820px){
+  header .wrap{padding-top:18px;padding-bottom:14px}
+  h1{font-size:21px;letter-spacing:-.4px}
+  .sub{font-size:14px;margin-bottom:12px}
+  .tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:0 16px}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex:0 0 auto;font-size:13px;padding:6px 12px}
+  main.wrap{padding-top:12px;padding-bottom:12px}
+  main{grid-template-columns:1fr;gap:12px}
+  .panel{position:static;padding:14px 16px;order:-1;border-radius:14px}
+  .eyebrow{margin-bottom:6px;font-size:12px}
+  .bar{margin-bottom:10px}
+  .do{font-size:20px;margin-bottom:4px}
+  .label{display:none}
+  .screen{font-size:15px;color:#333}
+  .tip{font-size:14px;margin-top:8px;padding:8px 12px}
+  .ctrls{margin-top:12px;gap:8px;flex-wrap:nowrap}
+  .btn{padding:8px 12px;font-size:14px}
+  #restart{margin-left:auto}
+  .keys{display:none}
+  .device{height:auto;width:min(86vw,360px)}
+  .stage{margin-bottom:36px}
+}
+@media (prefers-reduced-motion:reduce){.hot,.hot.nudge{animation:none}.device img{transition:none}}
+@media print{
+  body{background:#fff;font-size:11pt}
+  header{background:#fff;color:#000;border-bottom:2px solid #000}.sub{color:#333}
+  .tabs,main,.text summary{display:none}
+  .text details{border:none;padding:0}
+  .text section{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>BeReal Passport &amp; Community Boards Job Aid</h1>
+    <p class="sub">Interactive walkthrough. Tap the highlighted button on each screen to move through the app, just as you would on your phone.</p>
+    <div class="tabs" role="tablist" aria-label="Tasks" id="tabs"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="stage">
+    <div class="device" id="device">
+      <img id="shot" alt="">
+      <button class="hot" id="hot" type="button"><span class="tapl" id="tapl">TAP</span></button>
+    </div>
+    <div class="hint" id="hint">Tap the highlighted button to continue</div>
+  </div>
+
+  <section class="panel" aria-live="polite">
+    <p class="eyebrow" id="where"></p>
+    <div class="bar"><i id="prog"></i></div>
+    <div id="badge"></div>
+    <h2 class="do" id="do"></h2>
+    <p class="label" id="lbl">On this screen</p>
+    <p class="screen" id="scr"></p>
+    <div id="tip"></div>
+    <div class="ctrls">
+      <button class="btn" id="back" type="button">&larr; Back</button>
+      <button class="btn primary" id="next" type="button">Next &rarr;</button>
+      <button class="btn" id="restart" type="button" aria-label="Restart this task">&#8634; Restart</button>
+    </div>
+    <p class="keys">Tip: use the &larr; and &rarr; keys to step through.</p>
+  </section>
+</main>
+
+<div class="wrap text">
+  <details id="txt">
+    <summary>Text version of all steps (for printing or screen readers)</summary>
+    
+    <section>
+      <h3>Task 1: Post a stamped BeReal</h3>
+      <ol>
+      <li><strong>Tap the 12:00 AM alert.</strong> <span>Your lock screen. The alert means this month&#x27;s Community Boards are open. It isn&#x27;t a timed post, so open it whenever suits you.</span></li>
+      <li><strong>Tap Got it.</strong> <span>A one-time intro shows how it works: take a photo, choose a Community Board, get a Real Passport stamp.</span></li>
+      <li><strong>Tap Opt-in to join Community Boards.</strong> <span>The Today screen. Boards stay off until you join, and friends&#x27; posts stay blurred until you post.</span> <em>Tip: You only opt in once.</em></li>
+      <li><strong>Tap the capture button.</strong> <span>You&#x27;ve joined all six October boards. Each tile shows its stamp, lock state and how many friends have posted.</span></li>
+      <li><strong>Tap the shutter to take your photo.</strong> <span>The familiar BeReal dual camera. You choose a board after the photo, so capturing stays fast.</span></li>
+      <li><strong>Tap COMMUNITY BOARD.</strong> <span>Add a caption if you like, then pick the post type.</span> <em>Tip: SEND posts a regular BeReal to My Friends, with no stamp.</em></li>
+      <li><strong>Tap the CRAMMING board.</strong> <span>This month&#x27;s boards. Pick the one that fits your photo.</span></li>
+      <li><strong>Tap Stamp &amp; post to CRAMMING.</strong> <span>The CRAMMING card turns white and unlocks, so you know it&#x27;s selected.</span></li>
+      <li><strong>Wait a moment.</strong> <span>“Stamping your passport..” shows while your post saves.</span></li>
+      <li><strong>Tap See it on the board.</strong> <span>“Stamp earned! Added to CRAMMING board 🎉” Your new stamp is in your Passport.</span> <em>Tip: Open my Passport takes you straight to your collection.</em></li>
+      </ol>
+      <p class='done'>Done: Your post sits in the CRAMMING board feed with its passport stamp, next to your squad&#x27;s posts.</p>
+    </section>
+    <section>
+      <h3>Task 2: Check your Passport</h3>
+      <ol>
+      <li><strong>Tap Passport.</strong> <span>You&#x27;re on the board feed. Your Passport tab sits at the top.</span></li>
+      <li><strong>Tap View October Capsule Carousel.</strong> <span>Your Passport. The squad leaderboard ranks everyone by stamps, and the October stamp gallery shows CRAMMING as Unlocked.</span></li>
+      <li><strong>Tap any photo.</strong> <span>The October capsule: every post from this month&#x27;s boards, saved to Memories.</span> <em>Tip: Tap Board details to see who took part.</em></li>
+      <li><strong>Tap the arrow for the next photo.</strong> <span>The photo opens full size, with who posted it and which board.</span></li>
+      <li><strong>Tap X to close.</strong> <span>Keep stepping through the carousel with the arrows.</span></li>
+      </ol>
+      <p class='done'>Done: When a month ends, its boards stay here in Memories as capsules.</p>
+    </section>
+    <section>
+      <h3>Task 3: Opt in or out of boards</h3>
+      <ol>
+      <li><strong>Tap Profile.</strong> <span>Board settings live under your profile.</span></li>
+      <li><strong>Tap Opt-in - Community Board.</strong> <span>Settings. Community Board options sit under Features.</span> <em>Tip: Opt-out - Community Board opens the same list.</em></li>
+      <li><strong>Tap a board to switch it on or off. Here, COFFEE.</strong> <span>Each current board has its own ON / OFF switch.</span></li>
+      </ol>
+      <p class='done'>Done: COFFEE is now off, and the app confirms “Left COFFEE.” Turning every board off takes you back to the opt-in screen. Your regular BeReal works the same either way.</p>
+    </section>
+
+  </details>
+</div>
+
+<footer class="wrap">BeReal Passport &amp; Community Boards · Concept prototype by Lashawn Fofung · Try the live prototype at <a href="https://lashawnfofung.github.io/BeReal-RealProcess/">lashawnfofung.github.io/BeReal-RealProcess</a></footer>
+
+<script>
+const STEPS = [
+  {"task": 1, "kind": "tap", "do": "Tap the 12:00 AM alert.", "screen": "Your lock screen. The alert means this month's Community Boards are open. It isn't a timed post, so open it whenever suits you.", "tip": "", "box": {"x": 0.059, "y": 0.7912, "w": 0.8821, "h": 0.1213}, "img": "screens/s00.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap Got it.", "screen": "A one-time intro shows how it works: take a photo, choose a Community Board, get a Real Passport stamp.", "tip": "", "box": {"x": 0.1615, "y": 0.6267, "w": 0.6769, "h": 0.0532}, "img": "screens/s01.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap Opt-in to join Community Boards.", "screen": "The Today screen. Boards stay off until you join, and friends' posts stay blurred until you post.", "tip": "You only opt in once.", "box": {"x": 0.0641, "y": 0.2228, "w": 0.8718, "h": 0.0589}, "img": "screens/s02.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap the capture button.", "screen": "You've joined all six October boards. Each tile shows its stamp, lock state and how many friends have posted.", "tip": "", "box": {"x": 0.4282, "y": 0.9037, "w": 0.1436, "h": 0.0561}, "img": "screens/s03.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap the shutter to take your photo.", "screen": "The familiar BeReal dual camera. You choose a board after the photo, so capturing stays fast.", "tip": "", "box": {"x": 0.4026, "y": 0.8266, "w": 0.1949, "h": 0.0927}, "img": "screens/s04.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap COMMUNITY BOARD.", "screen": "Add a caption if you like, then pick the post type.", "tip": "SEND posts a regular BeReal to My Friends, with no stamp.", "box": {"x": 0.4423, "y": 0.8777, "w": 0.4936, "h": 0.073}, "img": "screens/s05.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap the CRAMMING board.", "screen": "This month's boards. Pick the one that fits your photo.", "tip": "", "box": {"x": 0.3615, "y": 0.3277, "w": 0.2769, "h": 0.1669}, "img": "screens/s06.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap Stamp & post to CRAMMING.", "screen": "The CRAMMING card turns white and unlocks, so you know it's selected.", "tip": "", "box": {"x": 0.1974, "y": 0.8173, "w": 0.7385, "h": 0.058}, "img": "screens/s07.jpg"},
+  {"task": 1, "kind": "auto", "do": "Wait a moment.", "screen": "“Stamping your passport..” shows while your post saves.", "tip": "", "box": null, "img": "screens/s08.jpg"},
+  {"task": 1, "kind": "tap", "do": "Tap See it on the board.", "screen": "“Stamp earned! Added to CRAMMING board 🎉” Your new stamp is in your Passport.", "tip": "Open my Passport takes you straight to your collection.", "box": {"x": 0.1615, "y": 0.5569, "w": 0.6769, "h": 0.0532}, "img": "screens/s09.jpg"},
+  {"task": 1, "kind": "end", "do": "You posted a stamped BeReal.", "screen": "Your post sits in the CRAMMING board feed with its passport stamp, next to your squad's posts.", "tip": "", "box": null, "img": "screens/s10.jpg"},
+  {"task": 2, "kind": "tap", "do": "Tap Passport.", "screen": "You're on the board feed. Your Passport tab sits at the top.", "tip": "", "box": {"x": 0.6564, "y": 0.1665, "w": 0.2718, "h": 0.0417}, "img": "screens/s11.jpg"},
+  {"task": 2, "kind": "tap", "do": "Tap View October Capsule Carousel.", "screen": "Your Passport. The squad leaderboard ranks everyone by stamps, and the October stamp gallery shows CRAMMING as Unlocked.", "tip": "", "box": {"x": 0.0641, "y": 0.8155, "w": 0.8718, "h": 0.0547}, "img": "screens/s12.jpg"},
+  {"task": 2, "kind": "tap", "do": "Tap any photo.", "screen": "The October capsule: every post from this month's boards, saved to Memories.", "tip": "Tap Board details to see who took part.", "box": {"x": 0.0897, "y": 0.225, "w": 0.1974, "h": 0.1252}, "img": "screens/s13.jpg"},
+  {"task": 2, "kind": "tap", "do": "Tap the arrow for the next photo.", "screen": "The photo opens full size, with who posted it and which board.", "tip": "", "box": {"x": 0.823, "y": 0.9085, "w": 0.1128, "h": 0.0537}, "img": "screens/s14.jpg"},
+  {"task": 2, "kind": "tap", "do": "Tap X to close.", "screen": "Keep stepping through the carousel with the arrows.", "tip": "", "box": {"x": 0.8385, "y": 0.0824, "w": 0.0974, "h": 0.0463}, "img": "screens/s15.jpg"},
+  {"task": 2, "kind": "end", "do": "You checked your Passport and capsule.", "screen": "When a month ends, its boards stay here in Memories as capsules.", "tip": "", "box": null, "img": "screens/s16.jpg"},
+  {"task": 3, "kind": "tap", "do": "Tap Profile.", "screen": "Board settings live under your profile.", "tip": "", "box": {"x": 0.7851, "y": 0.9067, "w": 0.1436, "h": 0.05}, "img": "screens/s17.jpg"},
+  {"task": 3, "kind": "tap", "do": "Tap Opt-in - Community Board.", "screen": "Settings. Community Board options sit under Features.", "tip": "Opt-out - Community Board opens the same list.", "box": {"x": 0.0641, "y": 0.3174, "w": 0.8718, "h": 0.0535}, "img": "screens/s18.jpg"},
+  {"task": 3, "kind": "tap", "do": "Tap a board to switch it on or off. Here, COFFEE.", "screen": "Each current board has its own ON / OFF switch.", "tip": "", "box": {"x": 0.0641, "y": 0.4561, "w": 0.8718, "h": 0.0671}, "img": "screens/s19.jpg"},
+  {"task": 3, "kind": "end", "do": "You changed your boards.", "screen": "COFFEE is now off, and the app confirms “Left COFFEE.” Turning every board off takes you back to the opt-in screen. Your regular BeReal works the same either way.", "tip": "", "box": null, "img": "screens/s20.jpg"}
+];
+const TASKS = {"1": "Post a stamped BeReal", "2": "Check your Passport", "3": "Opt in or out of boards"};
+const $ = id => document.getElementById(id);
+let cur = 0, autoT = null, hintT = null;
+const done = new Set();
+const taskSteps = t => STEPS.map((s,i)=>[s,i]).filter(([s])=>s.task===t);
+
+function renderTabs(){
+  const t = STEPS[cur].task;
+  $('tabs').innerHTML = Object.entries(TASKS).map(([k,name]) =>
+    `<button class="tab${done.has(+k)?' done':''}" role="tab" aria-selected="${+k===t}" data-t="${k}"><span class="n">${done.has(+k)?'✓':k}</span>${name}</button>`).join('');
+}
+
+function show(i){
+  clearTimeout(autoT);
+  cur = Math.max(0, Math.min(STEPS.length-1, i));
+  const s = STEPS[cur], ts = taskSteps(s.task), pos = ts.findIndex(([,j])=>j===cur);
+  const img = $('shot');
+  if (img.dataset.i !== String(cur)) { img.classList.add('fade'); setTimeout(()=>{ img.src = s.img; img.dataset.i = cur; img.classList.remove('fade'); }, img.src ? 120 : 0); }
+  img.alt = 'App screen: ' + s.screen;
+
+  const hot = $('hot');
+  if (s.kind === 'tap' && s.box) {
+    const pad = 0.012, b = s.box;
+    hot.style.display = 'block';
+    hot.style.left = (b.x - pad) * 100 + '%';  hot.style.top = (b.y - pad*0.47) * 100 + '%';
+    hot.style.width = (b.w + pad*2) * 100 + '%'; hot.style.height = (b.h + pad*0.94) * 100 + '%';
+    $('tapl').className = 'tapl ' + (b.y > 0.5 ? 'up' : 'down');
+    hot.setAttribute('aria-label', s.do);
+    hot.classList.remove('nudge');
+  } else hot.style.display = 'none';
+
+  const steps = ts.filter(([x])=>x.kind!=='end').length;
+  $('where').textContent = `Task ${s.task} · ` + (s.kind==='end' ? 'Complete' : `Step ${pos+1} of ${steps}`);
+  $('prog').style.width = (s.kind==='end' ? 100 : (pos/steps)*100) + '%';
+  $('do').innerHTML = s.kind==='auto' ? `<span class="spin" aria-hidden="true"></span>${s.do}` : s.do;
+  $('lbl').textContent = s.kind==='end' ? 'What happened' : 'On this screen';
+  $('scr').textContent = s.screen;
+  $('tip').innerHTML = s.tip ? `<div class="tip"><b>Tip:</b>${s.tip}</div>` : '';
+  $('badge').innerHTML = s.kind==='end' ? '<span class="badge"><i>✓</i>Task complete</span>' : '';
+  if (s.kind==='end') done.add(s.task);
+
+  $('back').disabled = cur === 0;
+  const last = cur === STEPS.length-1;
+  $('next').innerHTML = s.kind==='end' ? (last ? 'Start over ↺' : `Next task: ${TASKS[s.task+1]} &rarr;`) : 'Next &rarr;';
+  $('hint').classList.remove('show');
+  renderTabs();
+  const at = document.querySelector('.tab[aria-selected="true"]'); if (at) $('tabs').scrollLeft = at.offsetLeft - 16;
+  if (s.kind==='auto') autoT = setTimeout(()=>show(cur+1), 1600);
+}
+
+function next(){ STEPS[cur].kind==='end' && cur===STEPS.length-1 ? (done.clear(), show(0)) : show(cur+1); }
+
+$('hot').addEventListener('click', e => { e.stopPropagation(); show(cur+1); });
+$('device').addEventListener('click', () => {
+  const s = STEPS[cur]; if (s.kind!=='tap') return;
+  const h = $('hot'); h.classList.remove('nudge'); void h.offsetWidth; h.classList.add('nudge');
+  $('hint').classList.add('show'); clearTimeout(hintT); hintT = setTimeout(()=>$('hint').classList.remove('show'), 2200);
+});
+$('next').addEventListener('click', next);
+$('back').addEventListener('click', () => show(cur-1));
+$('restart').addEventListener('click', () => show(taskSteps(STEPS[cur].task)[0][1]));
+$('tabs').addEventListener('click', e => { const b = e.target.closest('[data-t]'); if (b) show(taskSteps(+b.dataset.t)[0][1]); });
+document.addEventListener('keydown', e => {
+  if (e.key==='ArrowRight') next();
+  if (e.key==='ArrowLeft') show(cur-1);
+});
+window.addEventListener('beforeprint', () => $('txt').open = true);
+show(0);
+</script>
+</body>
+</html>
