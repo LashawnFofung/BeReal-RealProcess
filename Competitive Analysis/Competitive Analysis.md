@@ -1,6 +1,6 @@
 # BeReal Passport & Community Boards — Competitive Analysis
 
-**[Feature Working Session](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Competitive%20Analysis/Feature%20Working%20Session.md)** · **[Test Plan](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Test%20Plan/Test%20Plan.md)** · **[PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md)** · **[Back to README](https://github.com/LashawnFofung/BeReal-RealProcess#readme)**
+**[Feature Working Session](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Feature%20Working%20Session/Feature%20Working%20Session.md)** · **[Test Plan](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Test%20Plan/Test%20Plan.md)** · **[PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md)** · **[Back to README](https://github.com/LashawnFofung/BeReal-RealProcess#readme)**
 
 > *Independent concept created for a UI/UX Design & Product Management Externship. Not affiliated with or endorsed by BeReal.*
 
@@ -85,7 +85,7 @@ From my research into how the two most relevant apps keep users coming back:
 | Locked feed (no peeking) | Friends' posts stay hidden until you post | Reciprocity: you have to post before you can browse |
 | RealMoji reactions | Reactions made from a photo of your own face | A two-way interaction that pulls people back to see responses |
 
-**Takeaway:** TikTok keeps people engaged through discovery and gamification, without needing a friend network. BeReal's loop is built on friends and reciprocity, but it gives users only **one reason a day** to open the app. The working session shows how I turned these mechanics into features → [Feature Working Session](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Competitive%20Analysis/Feature%20Working%20Session.md)
+**Takeaway:** TikTok keeps people engaged through discovery and gamification, without needing a friend network. BeReal's loop is built on friends and reciprocity, but it gives users only **one reason a day** to open the app. The working session shows how I turned these mechanics into features → [Feature Working Session](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Feature%20Working%20Session/Feature%20Working%20Session.md)
 
 <br>
 
