@@ -12,6 +12,11 @@
 [![PRD](https://img.shields.io/badge/PRD-v2.0-0A0A0A?style=flat&logo=readthedocs&logoColor=white)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md)
 [![MBA Portfolio](https://img.shields.io/badge/Portfolio-View-6E40C9?style=flat&logo=github&logoColor=white)](https://github.com/LashawnFofung/MBA-IT-Management-Portfolio)
 
+
+<br>
+
+<a href="https://lashawnfofung.github.io/BeReal-RealProcess/"><img src="Project%20Marketing%20Images/Images/BeReal%20Passport%20Hero.png" alt="BeReal Passport &amp; Community Boards: three phone screens showing squad board posts with passport stamps, and the tagline Your daily real, now stamped." width="100%"></a>
+
 </div>
 
 > *Independent concept created for a UI/UX Design & Product Management Externship. Not affiliated with or endorsed by BeReal.*
@@ -157,6 +162,8 @@ The [PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD
 ---
 
 ## My Role
+
+<img src="Project%20Marketing%20Images/Images/BeReal%20Passport%20Project%20Cover.png" alt="Project cover: Lashawn Fofung, UI/UX Design and Product Management, BeReal Passport and Community Boards enhancement proposal, 2026." width="600">
 
 **UI/UX Designer and Product Manager** (solo project)
 
