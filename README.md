@@ -3,7 +3,7 @@
 # 📸 BeReal Passport & Community Boards
 ### A re-engagement feature concept for casual BeReal users
 
-**UI/UX Design + Product Management Case Study** · UI/UX Design & Product Management · Aug 2026 – Oct 2026
+**UI/UX Design + Product Management Case Study** · UI/UX Design & Product Management Externship · Aug 2026 – Oct 2026
 
 [![Prototype](https://img.shields.io/badge/Try_the_Prototype-Live-2EA44F?style=flat&logo=githubpages&logoColor=white)](https://lashawnfofung.github.io/BeReal-RealProcess/)
 [![Case Study](https://img.shields.io/badge/Case_Study-16_min-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/yxYclJn8ZGc)
@@ -19,7 +19,7 @@
 ---
 
 ## Contents
-[TL;DR](#tldr) · [Start Here](#-start-here) · [The Problem](#the-problem) · [The User](#the-user) · [The Solution](#the-solution) · [Testing & Results](#testing--results) · [Next Steps](#next-steps) · [Process & Artifacts](#process--artifacts) · [My Role](#my-role)
+[TL;DR](#tldr) · [Start Here](#-start-here) · [The Problem](#the-problem) · [The User](#the-user) · [The Solution](#the-solution) · [Testing & Results](#testing--results) · [Next Steps](#next-steps) · [Process & Artifacts](#process--artifacts) · [My Role](#my-role) · [📅 Project Timeline](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Project%20Timeline.md)
 
 ---
 
@@ -40,7 +40,7 @@
 | Deliverable | Watch / Try | Files |
 |---|---|---|
 | **Interactive prototype** | [GitHub Pages](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Claude](https://claude.ai/artifact/QouixAtcmRQXoxXEiUsXgm) | [HTML](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal_Passport_Prototype.html) |
-| **Case study** (16 min) | [▶️ YouTube](https://youtu.be/yxYclJn8ZGc) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf) |
+| **Case study** (16 min) | [▶️ YouTube](https://youtu.be/yxYclJn8ZGc) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Case%20Study/BeReal%20Passport%20And%20Community%20Boards%20Case%20Study.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Passport%20And%20Community%20Boards%20Case%20Study.pdf) |
 | **Pitch** (5 min) | [▶️ YouTube](https://youtu.be/Or5O1wUj_Ow) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf) |
 | **Promo reel** (45 sec) | [▶️ YouTube Short](https://youtube.com/shorts/exXoJ6NqmbI) | |
 | **Interactive job aid** | [Try it](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) | [HTML](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) · [Process & prompt](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) |
@@ -142,13 +142,17 @@ The [PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD
 
 | Phase | What I did | Artifact |
 |---|---|---|
-| **1. Discover** | UI/UX teardown of the current app and a company snapshot | [Teardown (PDF)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/BeReal_UIUX_Teardown.pdf) · [Corporate Snapshot](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/BeReal%20Corporate%20Snapshot.png) |
+| **1. Discover** | UI/UX teardown, company snapshot and competitor benchmarking | [Teardown (PDF)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/BeReal_UIUX_Teardown.pdf) · [Corporate Snapshot](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/BeReal%20Corporate%20Snapshot.png) · [Competitive Analysis](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Competitive%20Analysis/Competitive%20Analysis.md) · [Feature Working Session](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Competitive%20Analysis/Feature%20Working%20Session.md) |
 | **2. Define** | Introvert persona, 5-stage journey map and PRD v1.0 draft | [Persona & Journey](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/User%20Journey/Users.md) · [PRD v1.0](https://github.com/LashawnFofung/BeReal-RealProcess/tree/main/PRD/PRD_v1) |
 | **3. Design** | Seven-screen user flow, UI states, re-engagement hooks | [Spec Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype) |
 | **4. Prototype & Test** | Clickable prototype, 5-person focus group, survey | [Prototype](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Survey](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Survey) |
 | **5. Pitch** | Test summary, recommendation, pitch and case study videos | [Pitch](https://youtu.be/Or5O1wUj_Ow) · [Case Study](https://youtu.be/yxYclJn8ZGc) |
 | **6. Revise requirements** | Updated the PRD from v1.0 (pre-test draft) to v2.0 with test results and a re-phased rollout | [PRD process & changes](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md) · [1-pager](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD_v2/BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) · [Full PRD](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD_v2/BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf) |
 | **7. Enable users** | Interactive job aid built from real prototype screens, a step-list spreadsheet and a reusable prompt | [Job aid](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) · [Process & prompt](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) · [Step list template](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx) |
+| **8. Plan validation** | Two-stage test plan: usability retest, then a squad-randomized A/B experiment with guardrails and ship/kill criteria | [Test Plan](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Test%20Plan/Test%20Plan.md) |
+
+
+📅 See the full [Project Timeline](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Project%20Timeline.md) for dates, milestones and how the plan changed along the way.
 
 ---
 
@@ -173,6 +177,6 @@ The [PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD
 
 **Lashawn Fofung** · Technical Product Manager · [LinkedIn](https://www.linkedin.com/in/lashawnfofung/) · [MBA Portfolio](https://github.com/LashawnFofung/MBA-IT-Management-Portfolio) · [AI Portfolio](https://github.com/LashawnFofung/AI-Portfolio)
 
-*Independent concept created for a UI/UX program. Not affiliated with or endorsed by BeReal.*
+*Independent concept created for a UI/UX Design & Product Management Externship. Not affiliated with or endorsed by BeReal.*
 
 </div>
