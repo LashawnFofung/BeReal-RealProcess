@@ -14,7 +14,7 @@
 
 </div>
 
-> *Independent concept created for a UI/UX program. Not affiliated with or endorsed by BeReal.*
+> *Independent concept created for a UI/UX & Product Management Externship. Not affiliated with or endorsed by BeReal.*
 
 ---
 
