@@ -1,6 +1,8 @@
 # BeReal Passport & Community Boards — Product Requirements (PRD)
 
-**[1-pager (PDF)](BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf)** · **[Full PRD (PDF)](BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf)** · **[Live prototype](https://lashawnfofung.github.io/BeReal-RealProcess/)** · **[Back to README](https://github.com/LashawnFofung/BeReal-RealProcess#readme)**
+**Current (v2.0):** [1-pager](PRD_v2/BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) · [Full PRD](PRD_v2/BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf)  
+**Original (v1.0):** [1-pager](PRD_v1/Real%20Passport%20%26%20Community%20Boards_-_PRD-lite_1-pager_v1.0.pdf) · [Full PRD](PRD_v1/Real%20Passport%20%26%20Community%20Boards%20-_Full_Requirements_Document_v1.0.pdf)  
+[Live prototype](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Back to README](https://github.com/LashawnFofung/BeReal-RealProcess#readme)
 
 > *Independent concept created for a UI/UX program. Not affiliated with or endorsed by BeReal.*
 
@@ -37,10 +39,10 @@ Each version carries a version number, date, status and revision history, so rev
 
 ## Version history
 
-| Version | Date | Status | Summary |
-| --- | --- | --- | --- |
-| **1.0** | September 2026 | Draft for discussion | Written before user testing, from research and early design |
-| **2.0** | October 27, 2026 | Revised after user testing; recommendation: refine, then retest | Aligned to the tested prototype; test results, new requirements and a re-phased rollout added |
+| Version | Date | Status | Summary | Documents |
+| --- | --- | --- | --- | --- |
+| **1.0** | September 2026 | Draft for discussion | Written before user testing, from research and early design | [1-pager](PRD_v1/Real%20Passport%20%26%20Community%20Boards_-_PRD-lite_1-pager_v1.0.pdf) · [Full PRD](PRD_v1/Real%20Passport%20%26%20Community%20Boards%20-_Full_Requirements_Document_v1.0.pdf) |
+| **2.0** | October 27, 2026 | Revised after user testing; recommendation: refine, then retest | Aligned to the tested prototype; test results, new requirements and a re-phased rollout added | [1-pager](PRD_v2/BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) · [Full PRD](PRD_v2/BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf) |
 
 <br>
 
@@ -121,10 +123,13 @@ These results drove most of the v2.0 changes.
 
 ## Files
 
-| File | Description |
-| --- | --- |
-| [`BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf`](BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) · [`.docx`](BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.docx) | PRD-lite 1-pager, v2.0 |
-| [`BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf`](BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf) · [`.docx`](BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.docx) | Full Requirements Document, v2.0, with revision history |
+| Folder | File | Description |
+| --- | --- | --- |
+| `PRD_v2` | [PRD-lite 1-pager v2.0 (PDF)](PRD_v2/BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) | Current 1-pager, revised after user testing |
+| `PRD_v2` | [Full Requirements Document v2.0 (PDF)](PRD_v2/BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf) | Current full PRD, with revision history |
+| `PRD_v1` | [PRD-lite 1-pager v1.0 (PDF)](PRD_v1/Real%20Passport%20%26%20Community%20Boards_-_PRD-lite_1-pager_v1.0.pdf) | Original 1-pager, before user testing |
+| `PRD_v1` | [Full Requirements Document v1.0 (PDF)](PRD_v1/Real%20Passport%20%26%20Community%20Boards%20-_Full_Requirements_Document_v1.0.pdf) | Original full PRD, before user testing |
+
 
 ---
 
