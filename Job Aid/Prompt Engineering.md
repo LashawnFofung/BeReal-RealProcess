@@ -2,7 +2,7 @@
 
 **[▶ Try the interactive job aid](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html)** · **[Live prototype](https://lashawnfofung.github.io/BeReal-RealProcess/)** · **[Back to README](https://github.com/LashawnFofung/BeReal-RealProcess#readme)**
 
-> *Independent concept created for a UI/UX & Product Management Externship. Not affiliated with or endorsed by BeReal.*
+> *Independent concept created for a UI/UX Design & Product Management Externship. Not affiliated with or endorsed by BeReal.*
 
 ---
 
