@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # 📸 BeReal Passport & Community Boards
@@ -9,6 +8,8 @@
 [![Prototype](https://img.shields.io/badge/Try_the_Prototype-Live-2EA44F?style=flat&logo=githubpages&logoColor=white)](https://lashawnfofung.github.io/BeReal-RealProcess/)
 [![Case Study](https://img.shields.io/badge/Case_Study-16_min-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/yxYclJn8ZGc)
 [![Pitch](https://img.shields.io/badge/Pitch-5_min-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/Or5O1wUj_Ow)
+[![Job Aid](https://img.shields.io/badge/Job_Aid-Interactive-FFDE59?style=flat&logo=githubpages&logoColor=black)](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html)
+[![PRD](https://img.shields.io/badge/PRD-v2.0-0A0A0A?style=flat&logo=readthedocs&logoColor=white)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md)
 [![MBA Portfolio](https://img.shields.io/badge/Portfolio-View-6E40C9?style=flat&logo=github&logoColor=white)](https://github.com/LashawnFofung/MBA-IT-Management-Portfolio)
 
 </div>
@@ -30,7 +31,7 @@
 | **User** | "Denise," an introverted first-time user who values privacy and feels stressed by forced, real-time posting |
 | **Solution** | Small squads share monthly themed boards. Each post earns a collectible *Real Passport* stamp, and each month is saved as a capsule. Opt-in, same real photo, no public likes. |
 | **Result** | In a 5-person focus group, **4 of 5** testers said they'd open BeReal more often. Reminders and streaks scored **4.2/5** for feeling low-pressure. |
-| **Recommendation** | Reduce taps in the flow, then retest with a larger group |
+| **Recommendation** | Cut taps from capture to stamp, then retest with 7–10 people before an MVP ([PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md)) |
 
 ---
 
@@ -42,6 +43,8 @@
 | **Case study** (16 min) | [▶️ YouTube](https://youtu.be/yxYclJn8ZGc) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf) |
 | **Pitch** (5 min) | [▶️ YouTube](https://youtu.be/Or5O1wUj_Ow) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf) |
 | **Promo reel** (45 sec) | [▶️ YouTube Short](https://youtube.com/shorts/exXoJ6NqmbI) | |
+| **Interactive job aid** | [Try it](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) | [HTML](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) · [Process & prompt](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) |
+| **Product requirements** (v2.0) | [1-pager (PDF)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD_v2/BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) · [Full PRD (PDF)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD_v2/BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf) | [Process & changes](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md) |
 
 ---
 
@@ -73,12 +76,14 @@ I mapped her journey through five stages of the current app:
 
 ## The Solution
 
-**Real Passport & Community Boards** adds a slower, friendlier reason to open the app.
+**BeReal Passport & Community Boards** adds a slower, friendlier reason to open the app.
 
 - **Squads** — small, chosen groups instead of a wide friend list
 - **Monthly themed boards** — a shared prompt the squad posts to on their own time
 - **Real Passport stamps** — each post earns a collectible stamp
 - **Monthly capsules** — each month is saved as a keepsake
+
+**How it works:** take your BeReal as usual → choose **SEND** (regular post) or **COMMUNITY BOARD** (themed post + stamp) → pick a board → collect your stamp. Reactions stay inside the squad, and you can opt in or out of any board in Settings.
 
 ### How the design answers Denise's pain points
 
@@ -103,7 +108,9 @@ I mapped her journey through five stages of the current app:
 |---|---|
 | Would open BeReal more often | **4 of 5** testers |
 | Reminders & streak feel low-pressure | **4.2 / 5** |
-| Main friction found | Too many taps in the flow |
+| Would launch it | **3 yes · 1 maybe · 1 no** |
+| Main friction found | Too many taps from capture to stamp |
+| Biggest risk | Complexity, not pressure |
 
 📄 [Survey results](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Survey)
 
@@ -113,12 +120,21 @@ I mapped her journey through five stages of the current app:
 
 ## Next Steps
 
-1. **Simplify the flow** — cut taps from posting to a board.
-2. **Retest** with a larger, more diverse group, including users who have stopped using BeReal.
-3. **Proposed success metrics for a real pilot:**
-   - DAU/MAU ratio for opted-in users vs. a control group
-   - Board participation rate per squad per month
-   - 30- and 60-day return rate for casual users
+The [PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md) re-phased the rollout based on testing:
+
+| Phase | Plan |
+|---|---|
+| **0. Prototype & test** | ✅ Complete: clickable prototype and 5-person focus group |
+| **1. Refine & retest** | Cut taps from capture to stamp, make SEND vs. COMMUNITY BOARD clear, add a first-use explainer; retest with 7–10 people, including users who have stopped using BeReal |
+| **2. MVP** | One board with the full loop, shipped to one friend group |
+| **3. Full rollout** | Four themed boards per month, plus shorter observance boards |
+| **4. Sponsored pilot** | Sponsor-branded boards as a monetization test |
+
+**Proposed success metrics for a real pilot:**
+- DAU/MAU ratio for opted-in users vs. a control group
+- Board participation rate per squad per month
+- 30- and 60-day return rate for casual users
+- Taps and time from capture to stamped post
 
 ---
 
@@ -127,10 +143,12 @@ I mapped her journey through five stages of the current app:
 | Phase | What I did | Artifact |
 |---|---|---|
 | **1. Discover** | UI/UX teardown of the current app and a company snapshot | [Teardown (PDF)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/BeReal_UIUX_Teardown.pdf) · [Corporate Snapshot](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/BeReal%20Corporate%20Snapshot.png) |
-| **2. Define** | Introvert persona and 5-stage journey map | [Persona & Journey](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/User%20Journey/Users.md) |
+| **2. Define** | Introvert persona, 5-stage journey map and PRD v1.0 draft | [Persona & Journey](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/User%20Journey/Users.md) · [PRD v1.0](https://github.com/LashawnFofung/BeReal-RealProcess/tree/main/PRD/PRD_v1) |
 | **3. Design** | Seven-screen user flow, UI states, re-engagement hooks | [Spec Deck](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype) |
 | **4. Prototype & Test** | Clickable prototype, 5-person focus group, survey | [Prototype](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Survey](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Survey) |
 | **5. Pitch** | Test summary, recommendation, pitch and case study videos | [Pitch](https://youtu.be/Or5O1wUj_Ow) · [Case Study](https://youtu.be/yxYclJn8ZGc) |
+| **6. Revise requirements** | Updated the PRD from v1.0 (pre-test draft) to v2.0 with test results and a re-phased rollout | [PRD process & changes](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD.md) · [1-pager](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD_v2/BeReal_Passport_Community_Boards_-_PRD-lite_1-pager_v2.0.pdf) · [Full PRD](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD/PRD_v2/BeReal_Passport_Community_Boards_-_Full_Requirements_Document_v2.0.pdf) |
+| **7. Enable users** | Interactive job aid built from real prototype screens, a step-list spreadsheet and a reusable prompt | [Job aid](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) · [Process & prompt](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) · [Step list template](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx) |
 
 ---
 
@@ -140,10 +158,12 @@ I mapped her journey through five stages of the current app:
 
 - **Research:** teardown, persona, journey mapping
 - **Design:** user flow, UI states, accessibility (WCAG color contrast, keyboard navigation, screen reader support)
+- **Requirements:** PRD-lite 1-pager and full PRD, versioned from draft (v1.0) to post-test (v2.0)
 - **Validation:** usability testing, focus group, survey
+- **Enablement:** interactive job aid and a reusable prompt for future features
 - **Storytelling:** recommendation, pitch, and case study
 
-**Tools:** Canva · Claude · Google Forms · GitHub Pages
+**Tools:** Canva · Claude · Google Forms · Microsoft Word · GitHub Pages
 
 **Why a TPM did a design program:** A strong grasp of technical delivery and business strategy is a real advantage in product design. UI/UX training closes the loop, so I can balance what's viable for the business, feasible to build, and right for the user.
 
