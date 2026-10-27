@@ -213,12 +213,60 @@ The [final prompt](#the-prompts) above is reusable. For a new feature, I copy it
 
 <br>
 
+### Starting from scratch: the step list spreadsheet
+
+The job aid is only as good as its step list. To make the process repeatable, I turned the steps into a spreadsheet that gets uploaded with the final prompt. The AI follows it row by row instead of guessing the flow from the prototype.
+
+**What's in the spreadsheet**
+
+- **One row = one screen** the user sees, in the order they see it.
+- **Three step types:** **Tap** (the user taps something), **Auto** (the screen moves on by itself, like a loading screen) and **End** (the task is finished).
+- **Columns:**
+
+| Column | What it holds | BeReal example |
+| --- | --- | --- |
+| Task # / Task Name | Which task the step belongs to | 1 · Post a stamped BeReal |
+| Step # / Step Type | Order within the task, and Tap, Auto or End | 3 · Tap |
+| Starting Screen | Where the user is before the step | Today screen |
+| Action (Do this) | One action, starting with a verb | Tap Opt-in to join Community Boards. |
+| Tap Target | The exact on-screen label to highlight | "Opt-in to join Community Boards" |
+| On This Screen | What the user is looking at, in plain words | Boards stay off until you join. |
+| Result / Next Screen | What happens after the tap, with messages quoted exactly | "You're in! Joined all 6 October boards." |
+| Tip | An alternative or warning, only where it helps | You only opt in once. |
+| Builder Notes | Instructions for whoever builds it; not shown to users | Wait for the toast to clear. |
+
+- **A Task Summary** counts each task's steps and flags any task missing its END row, so gaps show up before upload. For BeReal it reads 10, 5 and 3 steps (18 in total), each with an END row.
+
+**How I use it**
+
+1. **Walk through the prototype** start to finish and add one row for every screen, in order.
+2. **Copy button labels exactly** as they appear on screen, including capitals and punctuation.
+3. **End every task with an END row** that says what the user accomplished.
+4. **Check the Task Summary** for step counts and "Yes" on every END row.
+5. **Upload three things together:** the step list spreadsheet, the prototype HTML and the final prompt.
+6. **Add one line to the prompt** so the AI uses the spreadsheet as its source:
+
+```text
+Use the attached steps spreadsheet (Steps tab) as the TASKS AND STEPS list. Follow it row by row: one screen per row, in order. Use the Tap Target column for the hotspot, Action for "Do this", On This Screen for the description and Tip for the tip box. Don't add, skip or reword steps; if a row is unclear, list it under open questions.
+```
+
+**Why a spreadsheet**
+
+- **It separates content from build.** I can review and edit the steps without touching code or the prompt.
+- **It's the single source of truth.** The prompt, the job aid and its printable text version all come from the same rows.
+- **It scales to any feature.** For a new enhancement, I clear the rows, walk through the new prototype and fill them in. The prompt stays the same.
+
+- **View:** [BeReal step list (filled)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport_Filled.xlsx) · [Blank template](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx)
+
+<br>
+
 ## What I learned
 
 - **Real screens beat redrawn ones.** Capturing from the prototype kept the job aid accurate to the design, and it can be recaptured whenever the prototype changes.
 - **Show, then tell.** Users follow a highlighted button faster than a written description of where it is.
 - **Test the job aid like a product.** The overlapping badge and mobile spacing only showed up when every step was clicked through.
 - **Iterate the prompt, then save it.** Three short prompts got to the final design; one detailed prompt now reproduces it for the next feature.
+- **Write the steps down first.** A step list spreadsheet keeps the AI on the exact flow and makes the next job aid a fill-in-the-rows task.
 
 <br>
 
@@ -227,7 +275,9 @@ The [final prompt](#the-prompts) above is reusable. For a new feature, I copy it
 | File | Description |
 | --- | --- |
 | [`Job Aid/BeReal_BeReal Passport and Community Boards_Interactive_Job_Aid.html`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html) | Interactive click-through job aid (self-contained, about 2 MB) |
-| [`Job Aid/Prompt Engineering.md`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) | This page: purpose, process and reusable prompt |
+| [`Job Aid/Prompt Engineering.md`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Prompt%20Engineering.md) | This page: purpose, process, reusable prompt and step list |
+| [`Job Aid/Job_Aid_Steps_BeReal_Passport_Filled.xlsx`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport_Filled.xlsx) | Step list spreadsheet, filled in with all BeReal steps (upload with the prompt) |
+| [`Job Aid/Job_Aid_Steps_BeReal_Passport.xlsx`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Job%20Aid/Job_Aid_Steps_BeReal_Passport.xlsx) | Blank step list template for future features, with the BeReal steps as a worked example |
 | [`Prototype/BeReal_Passport_Prototype.html`](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal_Passport_Prototype.html) | Clickable prototype the screens were captured from |
 
 ---
