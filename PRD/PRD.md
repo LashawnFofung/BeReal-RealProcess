@@ -4,7 +4,7 @@
 **Original (v1.0):** [1-pager](PRD_v1/Real%20Passport%20%26%20Community%20Boards_-_PRD-lite_1-pager_v1.0.pdf) · [Full PRD](PRD_v1/Real%20Passport%20%26%20Community%20Boards%20-_Full_Requirements_Document_v1.0.pdf)  
 [Live prototype](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Back to README](https://github.com/LashawnFofung/BeReal-RealProcess#readme)
 
-> *Independent concept created for a UI/UX & Product Management Externship. Not affiliated with or endorsed by BeReal.*
+> *Independent concept created for a UI/UX Design & Product Management Externship. Not affiliated with or endorsed by BeReal.*
 
 ---
 
