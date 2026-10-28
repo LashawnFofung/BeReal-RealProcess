@@ -28,7 +28,7 @@ I set five visual principles and a four-step flow before designing any screen, a
 
 **The flow:** 01 Capture First → 02 Pick a Board → 03 Collect Stamps → 04 Archive Together
 
-![Slide 9: concept slide with the design principles and the four-step flow](images/slide-09.jpg)
+![Slide 9: concept slide with the design principles and the four-step flow](Images/slide-09.jpg)
 
 ### UX principles behind the decisions
 
@@ -70,7 +70,7 @@ I set five visual principles and a four-step flow before designing any screen, a
 
 Each screen was built as a phone mockup on a dark slide: a rounded-rectangle device frame, the screen content layered inside, and annotations on the left explaining the user's action and the reasoning. Arrows connect each "before" screen to its "after" screen, so a reviewer can follow the flow without clicking.
 
-![Slide 4: the seven-screen habit loop](images/slide-04.jpg)
+![Slide 4: the seven-screen habit loop](Images/slide-04.jpg)
 
 **Reusable building blocks**, duplicated across every screen so they stay identical:
 
@@ -92,7 +92,7 @@ Each screen was built as a phone mockup on a dark slide: a rounded-rectangle dev
 
 **Goal:** tell users the month's boards are open and invite them to join, without pressure.
 
-![Slide 10: Today screen for a new user, from the 12:00 AM alert to the opt-in screen](images/slide-10.jpg)
+![Slide 10: Today screen for a new user, from the 12:00 AM alert to the opt-in screen](Images/slide-10.jpg)
 
 | Element | Design decision |
 | --- | --- |
@@ -105,7 +105,7 @@ Each screen was built as a phone mockup on a dark slide: a rounded-rectangle dev
 
 **Goal:** keep capture exactly as fast as today, then offer the board as a choice.
 
-![Slide 11: capture screen, then the caption and post-type choice](images/slide-11.jpg)
+![Slide 11: capture screen, then the caption and post-type choice](Images/slide-11.jpg)
 
 | Element | Design decision |
 | --- | --- |
@@ -120,7 +120,7 @@ Each screen was built as a phone mockup on a dark slide: a rounded-rectangle dev
 
 **Goal:** make choosing a board feel instant and unmistakable.
 
-![Slide 12: board grid before and after a board is chosen](images/slide-12.jpg)
+![Slide 12: board grid before and after a board is chosen](Images/slide-12.jpg)
 
 | Element | Design decision |
 | --- | --- |
@@ -133,9 +133,9 @@ Each screen was built as a phone mockup on a dark slide: a rounded-rectangle dev
 
 **Goal:** never leave the user wondering what happened.
 
-![Slide 13: post confirm, loading and success states](images/slide-13.jpg)
+![Slide 13: post confirm, loading and success states](Images/slide-13.jpg)
 
-![Slide 7: the four UI states: empty, loading, success and error](images/slide-07.jpg)
+![Slide 7: the four UI states: empty, loading, success and error](Images/slide-07.jpg)
 
 | State | Message | Design decision |
 | --- | --- | --- |
@@ -148,7 +148,7 @@ Each screen was built as a phone mockup on a dark slide: a rounded-rectangle dev
 
 **Goal:** show the post landing among the squad's posts.
 
-![Slide 14: the post in the CRAMMING board feed with its passport stamp](images/slide-14.jpg)
+![Slide 14: the post in the CRAMMING board feed with its passport stamp](Images/slide-14.jpg)
 
 The user's post appears in the CRAMMING board feed with the **passport stamp in the corner** of the photo, the same placement as a real passport stamp. Friends' stamped posts sit below it. Reactions are emoji-based and visible only to the squad.
 
@@ -156,7 +156,7 @@ The user's post appears in the CRAMMING board feed with the **passport stamp in 
 
 **Goal:** give returning users a reason to come back every day.
 
-![Slide 15: Today screen for a returning user, daily prompt and board snapshot](images/slide-15.jpg)
+![Slide 15: Today screen for a returning user, daily prompt and board snapshot](Images/slide-15.jpg)
 
 | Element | Design decision |
 | --- | --- |
@@ -166,9 +166,9 @@ The user's post appears in the CRAMMING board feed with the **passport stamp in 
 
 ### 7. Reminders (re-engagement hooks)
 
-![Slide 16: reminder bubble, soft streak cue and come-back banner](images/slide-16.jpg)
+![Slide 16: reminder bubble, soft streak cue and come-back banner](Images/slide-16.jpg)
 
-![Slide 8: the three hooks: invite people back, never pressure them](images/slide-08.jpg)
+![Slide 8: the three hooks: invite people back, never pressure them](Images/slide-08.jpg)
 
 | Hook | Copy | Design decision |
 | --- | --- | --- |
@@ -180,7 +180,7 @@ The user's post appears in the CRAMMING board feed with the **passport stamp in 
 
 **Goal:** turn each month into a keepsake.
 
-![Slide 17: capsule collage and board details](images/slide-17.jpg)
+![Slide 17: capsule collage and board details](Images/slide-17.jpg)
 
 Past boards live in **Memories** as a capsule: a collage of the month's posts that opens into a carousel. Board details show who took part and the 👍 / 👎 totals. A two-column grid scroll is noted on the slide as a future enhancement.
 
@@ -188,7 +188,7 @@ Past boards live in **Memories** as a capsule: a collage of the month's posts th
 
 **Goal:** make collecting feel tactile and worth coming back for.
 
-![Slide 18: the six October 2026 passport stamps](images/slide-18.jpg)
+![Slide 18: the six October 2026 passport stamps](Images/slide-18.jpg)
 
 Six stamps designed as **vintage passport badges**. Each one shares the same structure (curved board name, illustration, "REAL PASSPORT", "BeReal." and "Unfiltered" labels and the month), and each has its own ink color and illustration:
 
@@ -207,7 +207,7 @@ An "October 2026 Release" label signals that new designs arrive every month, inc
 
 **Goal:** add light, friendly competition inside the squad only.
 
-![Slide 19: Passport tab with the Squad Stamp Tally, stamp gallery and capsule button](images/slide-19.jpg)
+![Slide 19: Passport tab with the Squad Stamp Tally, stamp gallery and capsule button](Images/slide-19.jpg)
 
 The Passport tab stacks three parts: the **Squad Stamp Tally** (ranked avatars with medal numbers and stamp counts), the **October stamp gallery** (earned stamps marked "Unlocked"), and a yellow **"View October Capsule Carousel"** button, the screen's one accent-colored call to action.
 
@@ -215,7 +215,7 @@ The Passport tab stacks three parts: the **Squad Stamp Tally** (ranked avatars w
 
 **Goal:** keep users in control at all times.
 
-![Slide 20: Settings with the new opt-in and opt-out rows, and the per-board list](images/slide-20.jpg)
+![Slide 20: Settings with the new opt-in and opt-out rows, and the per-board list](Images/slide-20.jpg)
 
 | Element | Design decision |
 | --- | --- |
@@ -238,7 +238,7 @@ The Passport tab stacks three parts: the **Squad Stamp Tally** (ranked avatars w
 | **No vanity metrics** | No public likes or follower counts; reactions and the tally stay inside the squad |
 | **Low pressure** | No countdown timers on boards, no streak loss and fully opt-in |
 
-![Slide 6: emotional tone: calm, real, human](images/slide-06.jpg)
+![Slide 6: emotional tone: calm, real, human](Images/slide-06.jpg)
 
 **What I deliberately didn't add:** an algorithmic feed, public leaderboards, loss-framed streaks or filters. Each would have increased engagement on paper while breaking what makes BeReal *BeReal*. The reasoning is in the [Feature Working Session](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Feature%20Working%20Session/Feature%20Working%20Session.md).
 
