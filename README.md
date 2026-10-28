@@ -23,8 +23,21 @@
 
 ---
 
+## Why "BeReal-RealProcess"?
+
+BeReal asks people to share the real moment, not the polished one. I applied the same idea to this portfolio: it documents **the real process of my externship experience**, not just a finished deck.
+
+- **The drafts as well as the final versions:** PRD v1.0 *and* v2.0, with what changed and why.
+- **What testing actually showed,** including the friction (too many taps) and the honest limits of a 5-person test.
+- **How decisions were made:** what I kept, adapted and rejected, and how the plan changed along the way.
+- **How the work was built,** including the prompts I used with AI tools.
+
+*Be real, not polished.*
+
+---
+
 ## Contents
-[TL;DR](#tldr) · [Start Here](#-start-here) · [The Problem](#the-problem) · [The User](#the-user) · [The Solution](#the-solution) · [Testing & Results](#testing--results) · [Next Steps](#next-steps) · [Process & Artifacts](#process--artifacts) · [My Role](#my-role) · [📅 Project Timeline](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Timeline/Project%20Timeline.md)
+[Why "RealProcess"?](#why-bereal-realprocess) · [TL;DR](#tldr) · [Start Here](#-start-here) · [The Problem](#the-problem) · [The User](#the-user) · [The Solution](#the-solution) · [Testing & Results](#testing--results) · [Next Steps](#next-steps) · [Process & Artifacts](#process--artifacts) · [My Role](#my-role) · [📅 Project Timeline](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Timeline/Project%20Timeline.md)
 
 ---
 
