@@ -6,6 +6,7 @@
 **UI/UX Design + Product Management Case Study** · UI/UX Design & Product Management Externship · Aug 2026 – Oct 2026
 
 [![Prototype](https://img.shields.io/badge/Try_the_Prototype-Live-2EA44F?style=flat&logo=githubpages&logoColor=white)](https://lashawnfofung.github.io/BeReal-RealProcess/)
+[![White Paper](https://img.shields.io/badge/White_Paper-PDF-B31B1B?style=flat&logo=adobeacrobatreader&logoColor=white)](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/White%20Paper/The_Real_Process_BeReal_Externship_White_Paper.pdf)
 [![Case Study](https://img.shields.io/badge/Case_Study-16_min-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/yxYclJn8ZGc)
 [![Pitch](https://img.shields.io/badge/Pitch-5_min-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/Or5O1wUj_Ow)
 [![Job Aid](https://img.shields.io/badge/Job_Aid-Interactive-FFDE59?style=flat&logo=githubpages&logoColor=black)](https://lashawnfofung.github.io/BeReal-RealProcess/Job%20Aid/BeReal_BeReal%20Passport%20and%20Community%20Boards_Interactive_Job_Aid.html)
@@ -32,6 +33,8 @@ BeReal asks people to share the real moment, not the polished one. I applied the
 - **How decisions were made:** what I kept, adapted and rejected, and how the plan changed along the way.
 - **How the work was built,** including the prompts I used with AI tools.
 
+📄 The [white paper](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/White%20Paper/The_Real_Process_BeReal_Externship_White_Paper.pdf) tells the whole story in 13 pages.
+
 *Be real, not polished.*
 
 ---
@@ -57,6 +60,7 @@ BeReal asks people to share the real moment, not the polished one. I applied the
 
 | Deliverable | Watch / Try | Files |
 |---|---|---|
+| **White paper** (13 pages) | The full process, start to finish | [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/White%20Paper/The_Real_Process_BeReal_Externship_White_Paper.pdf) |
 | **Interactive prototype** | [GitHub Pages](https://lashawnfofung.github.io/BeReal-RealProcess/) · [Claude](https://claude.ai/artifact/QouixAtcmRQXoxXEiUsXgm) | [HTML](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Prototype/BeReal_Passport_Prototype.html) |
 | **Case study** (16 min) | [▶️ YouTube](https://youtu.be/yxYclJn8ZGc) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Case%20Study/BeReal%20Case%20Study%20-%20Real%20Passport%20And%20Community%20Boards.pdf) |
 | **Pitch** (5 min) | [▶️ YouTube](https://youtu.be/Or5O1wUj_Ow) | [PPTX](https://github.com/LashawnFofung/BeReal-RealProcess/raw/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pptx) · [PDF](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/Pitch/BeReal%20Passport%20And%20Community%20Boards%20Pitch.pdf) |
@@ -188,7 +192,7 @@ The [PRD v2.0](https://github.com/LashawnFofung/BeReal-RealProcess/blob/main/PRD
 - **Strategy:** competitive analysis, feature working session and a two-stage A/B test plan
 - **Technical design:** data model, timezone scheduling, tally computation and privacy enforcement
 - **Enablement:** interactive job aid and a reusable prompt for future features
-- **Storytelling:** recommendation, pitch, and case study
+- **Storytelling:** recommendation, pitch, case study, and white paper
 
 **Tools:** Canva · Claude · Google Forms · Microsoft Word · GitHub Pages
 
